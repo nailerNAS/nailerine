@@ -1,0 +1,13 @@
+version: '3'
+services:
+  nailerine:
+    image: nailer/nailerine
+    build: .
+    container_name: nailerine
+    hostname: nailerine
+    volumes:
+      - ./sessions:/src/app/sessions
+    env_file:
+      - ./nailerine.env
+    restart: always
+    entrypoint: /src/app/entrypoint.sh
