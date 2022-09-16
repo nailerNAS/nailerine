@@ -10,7 +10,7 @@ chardet==3.0.4
 googletrans==2.4.0
 idna==2.8
 Inject==3.5.4
-Mako==1.1.0
+Mako==1.2.2
 MarkupSafe==1.1.1
 multidict==4.5.2
 pyaes==1.6.1
